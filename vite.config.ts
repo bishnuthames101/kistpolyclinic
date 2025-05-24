@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/kistpolyclinic/',
+  base: '/',
   plugins: [react()],
   server: {
     host: true,           // ← allow access via IP (e.g., 192.168.1.70)
